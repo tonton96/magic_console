@@ -1,4 +1,3 @@
-#include <random>
 #include "magic_show.h"
 
 void move_object(double **points, int num_points, double *center, const double *position) {

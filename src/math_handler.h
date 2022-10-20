@@ -6,6 +6,7 @@
 #include "cmath"
 #include "chrono"
 #include "thread"
+#include "random"
 
 uint8_t **malloc_uint8_matrix(int num_rows, int num_cols);
 
