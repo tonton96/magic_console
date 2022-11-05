@@ -6,7 +6,7 @@
 #define MAX_NUM_OBJECTS 15
 #define MAX_POINTS      10240
 #define DIM             3
-#define WIDTH           250
+#define WIDTH           230
 #define HEIGHT          60
 #define MAX_Z           1e6
 #define WIDTH_RATE      1

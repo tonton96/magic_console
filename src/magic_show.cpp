@@ -12,7 +12,7 @@ void move_object(double **points, int num_points, double *center, const double *
 
 void add_heart(double size, double **points, char *color_points, int *num_points, double *center) {
     const int num_bgs = 2;
-    const std::string bgs[num_bgs] = {"|HAPPY BIRTH DAY TO ME|", "<3"};
+    const std::string bgs[num_bgs] = {"*HAPPY BIRTH DAY TO ME*", "*06-11-1996*"};
     const char line = (char)219;
 
     int len_bgs[num_bgs];
