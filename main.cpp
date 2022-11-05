@@ -2,6 +2,6 @@
 
 int main() {
     std::system("color 04");
-    show_magic();
+    handle_magic();
     return 0;
 }

@@ -12,7 +12,7 @@ void move_object(double **points, int num_points, double *center, const double *
 
 void add_heart(double size, double **points, char *color_points, int *num_points, double *center) {
     const int num_bgs = 2;
-    const std::string bgs[num_bgs] = {"|Happy Viet Nam women's day 20/10|", "|I <3 U|"};
+    const std::string bgs[num_bgs] = {"|HAPPY BIRTH DAY TO ME|", "<3"};
     const char line = (char)219;
 
     int len_bgs[num_bgs];
@@ -107,7 +107,7 @@ void render(double ***all_points, char **color_points, const int *num_points, in
     free_matrix(dist_mat, WIDTH);
 }
 
-void show_magic() {
+void handle_magic() {
     std::string screen;
     screen.resize((WIDTH + 1) * HEIGHT);
     for (int h = 0; h < HEIGHT; h++) {
@@ -189,7 +189,7 @@ void show_magic() {
 
         render(points, color_points, num_points, MAX_NUM_OBJECTS, active_objects, screen);
 
-        std::cout << "\r" << screen;
+        display_magic(screen);
         std::this_thread::sleep_for(std::chrono::milliseconds(TIME_LOOP));
 
         for (int i = 0; i < MAX_NUM_OBJECTS; i++) {

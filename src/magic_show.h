@@ -14,20 +14,16 @@
 #define TIME_SPAN0      1000
 #define TIME_SPAN1      2000
 #define TIME_LOOP       100
-#define TRANS0          0.5
-#define TRANS1          1.0
-#define ROTATE0         0.02
-#define ROTATE1         0.1
+#define TRANS0          0.25
+#define TRANS1          0.50
+#define ROTATE0         0.01
+#define ROTATE1         0.05
 #define Y0              -10
 #define HEART_SIZE_0    3
 #define HEART_SIZE_1    8
 
-void add_heart(double size, double **points, char *color_points, int *num_points, double *center);
+void handle_magic();
 
-void move_object(double **points, int num_points, double *center, const double *position);
-
-void render(double ***all_points, char **color_points, const int *num_points, int num_objects, std::string &screen);
-
-void show_magic();
+void display_magic(const std::string &content);
 
 #endif //MAGIC_MAGIC_SHOW_H

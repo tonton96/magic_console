@@ -9,4 +9,4 @@ add_executable(magic main.cpp
         src/math_handler.cpp
         src/math_handler.h
         src/magic_show.cpp
-        src/magic_show.h)
+        src/magic_show.h src/magic_display.cpp)
