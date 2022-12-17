@@ -6,14 +6,14 @@
 #define MAX_NUM_OBJECTS 15
 #define MAX_POINTS      10240
 #define DIM             3
-#define WIDTH           230
-#define HEIGHT          60
+#define WIDTH           200
+#define HEIGHT          45
 #define MAX_Z           1e6
 #define WIDTH_RATE      1
 #define HEIGHT_RATE     2
 #define TIME_SPAN0      1000
 #define TIME_SPAN1      2000
-#define TIME_LOOP       100
+#define TIME_LOOP       120
 #define TRANS0          0.25
 #define TRANS1          0.50
 #define ROTATE0         0.01
